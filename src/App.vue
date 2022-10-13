@@ -1,7 +1,7 @@
 <script>
   export default {
     data: () => ({
-      contador :10,
+      contador :500,
     }),
 methods: {
 
@@ -17,7 +17,7 @@ console.log("Hola 10A |@ ");
     this.contador --;
    },
    resetear(){
-    this.contador =10;
+    this.contador =500;
    }
   }
 };
@@ -28,6 +28,7 @@ console.log("Hola 10A |@ ");
   <img src="./assets/logo.svg" alt="Logo VUE" width="125" height="125">
 <div class="container">
   <small>
+    <h1>Jesus Eduardo Medina Contreras 4° "B"</h1>
     <h1>Hola desde VUE.js 3</h1>
   </small>
   <hr>
